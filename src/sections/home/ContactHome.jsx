@@ -34,7 +34,7 @@ export default function ContactHome() {
         <p className="contact-home__availability">Aberto a projetos de social media, conteúdo, estratégia e experiências digitais.</p>
         <div className="social-row">
           {socials.map((social) => (
-            <a key={social.label} href={social.url} target="_blank" rel="noreferrer" data-cursor="link">{social.label}<span /</span></a>
+            <a key={social.label} href={social.url} target="_blank" rel="noreferrer" data-cursor="link">{social.label}<span>↗</span></a>
           ))}
         </div>
       </div>
