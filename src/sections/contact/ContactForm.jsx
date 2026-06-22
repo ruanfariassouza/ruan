@@ -46,8 +46,9 @@ export default function ContactForm() {
       <div className="contact-form-section__aside">
         <p className="eyebrow"><span /> Comece por aqui</p>
         <h2>Vamos dar forma à sua próxima ideia.</h2>
-        <a href="mailto:ruan@email.com" data-cursor="link">ruan@email.com</a>
+        <a href="mailto:ruan_farias@icloud.com" data-cursor="link">ruan_farias@icloud.com</a>
         <p>Vila Velha, Espírito Santo<br />Brasil · GMT−3</p>
+                  <p className="contact-form__phone"><a href="tel:+5527995007964" data-cursor="link">(27) 9 9500-7964</a></p>
       </div>
       <form className="contact-form" onSubmit={handleSubmit} noValidate>
         {fields.map((field) => (
